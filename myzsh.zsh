@@ -35,7 +35,7 @@ export MYZSH_PLUGINS=(
     git
     aliases
     history
-    autosuggestions
+    # autosuggestions
     docker            # NOTE: Bỏ comment nếu dùng Docker
     docker-compose    # NOTE: Bỏ comment nếu dùng Docker Compose
 )

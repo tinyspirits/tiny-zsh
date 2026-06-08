@@ -81,7 +81,7 @@ export MYZSH_PLUGINS=(
 
 ```bash
 mkdir -p ~/.myzsh/plugins/myplugin
-nano ~/.myzsh/plugins/myplugin/myplugin.plugin.zsh
+vi ~/.myzsh/plugins/myplugin/myplugin.plugin.zsh
 # Thêm "myplugin" vào MYZSH_PLUGINS trong myzsh.zsh
 ```
 

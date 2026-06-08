@@ -20,7 +20,13 @@
 # export PATH="/usr/local/go/bin:$PATH"         # Go
 # export PATH="$HOME/.cargo/bin:$PATH"          # Rust/Cargo
 # export PATH="$HOME/.bun/bin:$PATH"            # Bun
+export EDITOR="vim"
+export VISUAL="vim"
 
+# Tắt autosuggestions dù đã cài hệ thống
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE=""
+unset ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE
+zsh_autosuggest_stop 2>/dev/null   # tắt nếu đang chạy
 
 # ── Biến môi trường ───────────────────────────────────────────────────────────
 # NOTE: Thêm các biến môi trường cần thiết cho tool bạn dùng.
